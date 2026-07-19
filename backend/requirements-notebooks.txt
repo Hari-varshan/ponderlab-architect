@@ -1,0 +1,3 @@
+# Optional deps for backend/notebooks workflow debugging
+jupyter>=1.1.0
+ipykernel>=6.29.0

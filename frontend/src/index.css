@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply min-h-screen bg-ponder-bg text-slate-100 font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-cyan-500/30 text-white;
+  }
+}
+
+@layer components {
+  .ponder-input {
+    @apply w-full rounded-lg border border-ponder-border bg-ponder-surface/80 px-4 py-3
+      text-slate-100 placeholder:text-ponder-muted
+      focus:border-ponder-cyan focus:outline-none focus:ring-2 focus:ring-ponder-cyan/20
+      transition-colors;
+  }
+
+  .ponder-textarea {
+    @apply ponder-input min-h-[120px] resize-y font-mono text-sm leading-relaxed;
+  }
+
+  .ponder-btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-ponder-cyan/50
+      bg-gradient-to-r from-cyan-500/20 to-sky-500/20 px-5 py-2.5 font-medium text-ponder-cyan
+      shadow-glow-sm transition-all
+      hover:border-ponder-cyan hover:shadow-glow hover:text-white
+      disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none;
+  }
+
+  .ponder-btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-ponder-border
+      bg-ponder-surface/50 px-4 py-2 text-sm text-slate-300 transition-colors
+      hover:border-ponder-blue/40 hover:text-ponder-blue;
+  }
+
+  .ponder-card {
+    @apply rounded-xl border border-ponder-border bg-ponder-surface/60 p-5
+      backdrop-blur-sm transition-all hover:border-ponder-cyan/30;
+  }
+}

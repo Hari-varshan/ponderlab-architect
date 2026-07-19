@@ -1,0 +1,8 @@
+task: |
+  Write a single detailed image-generation prompt for a YouTube thumbnail.
+
+rules:
+  - Cyber-noir, minimalist, scientific aesthetic aligned with Ponder Lab.
+  - Visualize the noise stack metaphorically (waves, spectra, layered gradients).
+  - High contrast, readable at small sizes, no cluttered text (max 3-4 words if any).
+  - 16:9 composition, cinematic lighting, cyan/blue accent glow on dark background.

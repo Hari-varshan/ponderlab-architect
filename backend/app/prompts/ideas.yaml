@@ -1,0 +1,17 @@
+task: |
+  Generate exactly 3 unique sound-design VIDEO IDEAS based on the user's vibe request.
+  This stage is IDEA GENERATION ONLY — not title generation.
+
+  Match the style of the repository "Video Idea" column: descriptive prose about the noise
+  mix, textures, layering, duration intent, and felt experience. Think creative brief,
+  not YouTube title.
+
+rules:
+  - Produce exactly 3 concepts that are materially different from history and from each other.
+  - concept_name is a short internal label (2-5 words). No pipe characters. No brackets.
+  - video_idea must read like the Excel "Video Idea" field: plain prose describing the mix.
+  - Do NOT output YouTube title formatting in this stage (no pipe-separated segments, no bracket hooks).
+  - Each concept must include noise_stack, duration_hours, use_case, and differentiator.
+  - Explain audience_benefit_reasoning: why this helps sleep, focus, or ADHD relief specifically.
+  - duration_hours must follow the strict duration rules from the shared context.
+  - Assign stable ids: concept-1, concept-2, concept-3.

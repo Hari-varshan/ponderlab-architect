@@ -1,0 +1,13 @@
+task: |
+  Write SEO metadata for the approved concept and title.
+
+rules:
+  - Use standard paragraph breaks with blank lines between paragraphs.
+  - Preserve copy-paste-ready formatting and indentation style inspired by repository descriptions.
+  - Keep the same descriptive cadence and section formatting style seen in history when suitable.
+  - Do NOT use markdown dividers (---, ***, ###).
+  - Do NOT use bullet lists unless essential; prefer flowing prose.
+  - Include scientific credibility without overclaiming medical outcomes.
+  - Mention noise stack, duration, and intended use case naturally.
+  - Provide 15 to 20 tags mixing broad discovery and niche scientific-audio terms.
+  - No hashtag symbols in tag strings.

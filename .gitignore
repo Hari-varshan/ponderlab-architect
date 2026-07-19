@@ -1,0 +1,21 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/service-account.json
+backend/service_account.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env & secrets
+backend/.env
+.env
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp

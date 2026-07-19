@@ -1,0 +1,20 @@
+task: |
+  Generate 5 to 6 YouTube TITLE options for the selected video idea.
+  This stage is TITLE GENERATION ONLY — output must be publishable YouTube titles.
+
+  Match the repository "Title" column style. Every title uses bracketed pipe-separated segments:
+  [Duration/Use-Case Hook] | [Noise Stack Keywords] | [Evocative Benefit Phrase]
+
+  Examples from channel style (adapt, do not copy verbatim):
+  - [10 Hours ADHD Focus] | [Soft Blue Noise + Highway Hum + Leaf Rustle] | [Urban Clarity for Dynamic Work]
+  - [8 Hours Deep Sleep] | [Pink + Brown Noise Layered] | [REM-Safe Scientific Mix]
+  - MURMUR BROWN NOISE | Distant Chatter & Rumble | Cognitive Isolation | 10 Hrs | Deep Sleep
+
+rules:
+  - Produce 5 to 6 titles only — each must be a complete YouTube title string.
+  - Do NOT output concept briefs, video idea prose, or audience reasoning paragraphs.
+  - Every title must use pipe-separated segments; prefer bracketed segments for duration/use-case hooks.
+  - Derive noise stack and benefit from the selected concept's video_idea and noise_stack.
+  - No emojis. Title case where appropriate.
+  - Avoid duplicating or closely paraphrasing titles from repository history.
+  - Assign stable ids: title-1 through title-6 for the generated set.
